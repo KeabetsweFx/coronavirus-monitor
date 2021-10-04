@@ -1,0 +1,34 @@
+{
+  "preventions": [
+    {
+      "title": "Stay home",
+      "description": "Quarantine - a way to stop the spread of coronavirus",
+      "image": "stay-at-home"
+    },
+    {
+      "title": "Limit personal meetings",
+      "description": "Fewer contacts - less chance of infection",
+      "image": "no-group"
+    },
+    {
+      "title": "Maintain social distancing",
+      "description": "Maintain at least 2 meters (6 feet) distance between yourself and anyone who is coughing or sneezing.",
+      "image": "keep-distance"
+    },
+    {
+      "title": "Wash your hands frequently",
+      "description": "Clean your phone, keys and bank card after each exit to the street",
+      "image": "soap"
+    },
+    {
+      "title": "When to use masks?",
+      "description": "Wear a mask if you feel sick",
+      "image": "medical-mask"
+    },
+    {
+      "title": "Keep in touch with loved ones",
+      "description": "Talk with friends and family, keep in touch with them",
+      "image": "connection"
+    }
+  ]
+}

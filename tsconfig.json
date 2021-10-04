@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "lint": {
+          "validProperties": [
+            "margin-vertical",
+            "margin-horizontal",
+            "padding-vertical",
+            "padding-horizontal",
+            "shadow-color",
+            "shadow-offset",
+            "shadow-opacity",
+            "elevation"
+          ]
+        }
+      }
+    ],
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-native",
+    "lib": ["es6", "dom", "es2015.promise"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "*": ["src/*", "src/*.ios", "src/*.android"]
+    },
+    "strict": true,
+    "target": "es6"
+  },
+  "exclude": ["babel.config.js", "metro.config.js", "jest.config.js"]
+}

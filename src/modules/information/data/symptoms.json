@@ -1,0 +1,29 @@
+{
+  "symptoms": [
+    {
+      "title": "Fever",
+      "image": "fever",
+      "color": "carnation"
+    },
+    {
+      "title": "Cough",
+      "image": "dry-cough",
+      "color": "yellow"
+    },
+    {
+      "title": "Fatigue",
+      "image": "fatigue",
+      "color": "royal-blue"
+    },
+    {
+      "title": "Dyspnea",
+      "image": "difficulty-breathing",
+      "color": "carnation"
+    },
+    {
+      "title": "Aches & Pains",
+      "image": "muscle-pain",
+      "color": "yellow"
+    }
+  ]
+}
