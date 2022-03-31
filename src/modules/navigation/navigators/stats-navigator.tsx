@@ -1,7 +1,6 @@
 import React, { useCallback } from 'react';
 
 import { createStackNavigator, StackNavigationProp } from '@react-navigation/stack';
-// import { RouteProp } from '@react-navigation/native';
 import Feather from 'react-native-vector-icons/Feather';
 import { StatusBar, TouchableOpacity } from 'react-native';
 import { enableScreens } from 'react-native-screens';
@@ -65,10 +64,8 @@ export function StatisticsNavigator(props: Props) {
 
 /** Type definitions */
 export type StatsStackParamList = Record<string, undefined>;
-// type ScreenRouteProp = RouteProp<StatsStackParamList, keyof StatsStackParamList>;
 type ScreenNavigationProp = StackNavigationProp<StatsStackParamList, keyof StatsStackParamList>;
 
 interface Props {
-  // route: ScreenRouteProp;
   navigation: ScreenNavigationProp;
 }
