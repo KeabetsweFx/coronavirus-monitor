@@ -41,7 +41,8 @@ export function Button(props: PropsWithChildren<Props>) {
       disabled={disabled || loading}
       activeOpacity={ACTIVE_OPACITY}
       {...radius}
-      {...rest}>
+      {...rest}
+    >
       <ButtonContainer style={[customStyles, style]}>
         <Fill justifyContent="center" alignItems="center">
           {loading ? <ActivityIndicator size={LOADER_SIZE} color={Colors.white} /> : children}

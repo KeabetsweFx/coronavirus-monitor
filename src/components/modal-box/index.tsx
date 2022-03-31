@@ -93,10 +93,12 @@ export class ModalBox extends React.PureComponent<Record<string, unknown>, State
         hideModalContentWhileAnimating
         onBackdropPress={onBackdropPress}
         style={styles.modal}
-        onModalHide={this.onHide}>
+        onModalHide={this.onHide}
+      >
         <KeyboardAvoidingView
           behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-          style={{ ...StyleSheet.absoluteFillObject }}>
+          style={{ ...StyleSheet.absoluteFillObject }}
+        >
           {content}
         </KeyboardAvoidingView>
       </Modal>

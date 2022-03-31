@@ -63,7 +63,8 @@ export class Sheet extends React.PureComponent<Record<string, unknown>, State> {
           backdropComponent={this.renderBackdrop}
           onDismiss={this.onHide}
           ref={this.bottomSheet}
-          {...rest}>
+          {...rest}
+        >
           {content}
         </BottomSheetModal>
       </BottomSheetModalProvider>

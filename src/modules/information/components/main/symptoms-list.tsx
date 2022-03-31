@@ -28,7 +28,8 @@ export function SymptomsList() {
     <Carousel
       horizontal
       showsHorizontalScrollIndicator={false}
-      contentContainerStyle={{ paddingHorizontal: 20 }}>
+      contentContainerStyle={{ paddingHorizontal: 20 }}
+    >
       {symptoms.map(renderItem)}
     </Carousel>
   );

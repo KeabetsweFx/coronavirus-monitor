@@ -58,7 +58,8 @@ export function ReportCaseComponent() {
       onSubmit={submit}
       validateOnChange={false}
       onReset={handleOnReset}
-      validateOnBlur={false}>
+      validateOnBlur={false}
+    >
       {ReportCaseForm}
     </Formik>
   );

@@ -63,7 +63,8 @@ export function StatsComponent() {
       flex={1}
       backgroundColor={Colors.white}
       pt="20px"
-      contentContainerStyle={styles.contentContainerStyle}>
+      contentContainerStyle={styles.contentContainerStyle}
+    >
       <WorldStats {...stats} />
       <Divider spacing={10} backgroundColor={Colors.gallery} />
       <FeaturedCountries countries={data?.Countries} />
